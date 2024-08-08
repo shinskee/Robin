@@ -4,11 +4,13 @@ const burgerActive = document.querySelector('.burger')
 const menuActive = document.querySelector('.nav')
 const lockBody = document.body
 const clickMenu = document.querySelectorAll('.nav__link')
+const heroContent = document.querySelector('.hero__content')
 
 burgerActive.addEventListener('click', () => {
     burgerActive.classList.toggle('active');
     menuActive.classList.toggle('active');
     lockBody.classList.toggle('lock');
+    heroContent.classList.toggle('zindex')
 })
 
 clickMenu.forEach(element => {
@@ -16,6 +18,8 @@ clickMenu.forEach(element => {
         lockBody.classList.remove('lock')
         menuActive.classList.remove('active')
         burgerActive.classList.remove('active')
+        heroContent.classList.remove('zindex')
+
     })
 });
 

@@ -295,13 +295,17 @@ button {
   font-size: clamp(16px, 1.25vw, 18px);
 }
 
+.zindex {
+  z-index: -1;
+}
+
 .nav {
   height: 100%;
   position: relative;
 }
 @media (max-width: 768px) {
   .nav {
-    z-index: 1;
+    z-index: 3;
     position: absolute;
     background-color: var(--color-dark);
     top: 0;
