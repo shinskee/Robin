@@ -1,0 +1,26 @@
+.skill {
+    display: flex;
+    column-gap: 72px;
+
+    @include tablet-s {
+        flex-direction: column;
+        row-gap: 48px;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 24px;
+        row-gap: 48px;
+
+        @include mobile {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    &__item {
+        img {
+            margin-bottom: 24px;
+        }
+    }
+}

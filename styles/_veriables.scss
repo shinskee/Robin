@@ -1,0 +1,26 @@
+:root {
+    --container-width: 1300px;
+    --container-padding-x: 20px;
+    --section-padding-y: 120px;
+
+    @include tablet-s {
+        --section-padding-y: 48px;
+    }
+
+    --color-light: #FDFDFD;
+    --color-dark: #0d0d0d;
+    --color-gray: #8491A0;
+    --color-gray-dark: #5B6876;
+    --color-primary: #5221E6;
+    --color-level-1: #181823;
+    --color-accent-green: #3CC74E;
+    --color-accent-pink: #E95D90;
+    --color-accent-peach: #FFF3E4;
+    --color-accent-violet: #FBE4FF;
+    --color-accent-blue: #609BFF;
+
+    --border: 1px solid #1A3E3E;
+    --border-radius-small: 4px;
+    --border-radius: 32px;
+    --border-radius-large: 50px;
+}

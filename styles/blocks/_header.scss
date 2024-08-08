@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 88px;
+    width: 100%;
+
+    @include mobile {
+        height: 72px;
+    }
+
+    .logo {
+        z-index: 1;
+    }
+}

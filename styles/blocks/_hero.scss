@@ -1,0 +1,76 @@
+.hero {
+    background: linear-gradient(
+    to right, 
+    var(--color-dark) 0%, 
+    var(--color-dark) 35%, 
+    var(--color-level-1) 35%, 
+    var(--color-level-1) 100%
+    );
+
+    @include tablet-s {
+        background: var(--color-dark);
+    }
+
+    &__content {
+        position: relative;
+        padding: 80px 0;
+        // display: flex;
+
+        @include tablet {
+            display: flex;
+            flex-direction: column;
+        }
+
+        @include mobile {
+            padding: 0 0;
+        }
+    }
+
+    &__image {
+        @include fluid-width(750, 384);
+        @include fluid-height(650, 650);
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 0 1;
+        }
+
+        @include tablet {
+            height: 288px;
+            width: 100%;
+        }
+    }
+
+    &__text {
+        @include fluid-width(758, 408);
+
+        padding: 0 20px;
+        position: absolute;
+        top: 20%;
+        left: 47%;
+
+        @include tablet {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        &-title {
+            span {
+                opacity: 0.5;
+            }
+        }
+
+        &-description {
+            padding-top: 32px;
+            color: var(--color-light);
+
+            @include mobile {
+                padding-top: 16px;
+            }
+        }
+    }
+}

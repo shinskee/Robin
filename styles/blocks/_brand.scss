@@ -1,0 +1,21 @@
+.brand {
+    overflow-x: scroll;
+
+    &__list {
+        display: flex;
+
+        &-item {
+            height: 140px;
+            min-width: 340px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid var(--color-level-1);
+            border-right: none;
+
+            &:last-child {
+                border-right: 2px solid var(--color-level-1);
+            }
+        }
+    }
+}

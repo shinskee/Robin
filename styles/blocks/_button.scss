@@ -1,0 +1,14 @@
+.button {
+    @include reset-button;
+    color: var(--color-light);
+    text-transform: uppercase;
+    font-family: 'Sen';
+    font-size: 18px;
+    padding: 24px 32px;
+    border: 1px solid var(--color-primary);
+    cursor: pointer;
+
+    @include hover {
+        background-color: var(--color-primary);
+    }
+}

@@ -1,0 +1,47 @@
+.photography {
+    .section__header {
+        p {
+            padding-bottom: 64px;
+        }
+    }
+
+    &__tabs {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        padding-bottom: 40px;
+        row-gap: 24px;
+    }
+
+    &__album {
+        
+        &-city {
+            display: flex;
+            column-gap: 24px;
+        }
+
+        &-item {
+            min-width: 306px;
+            min-height: 420px;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    display: block; 
+}
+
+.f-carousel__slide {
+    flex: auto;
+    --f-carousel-spacing: 24px;
+}

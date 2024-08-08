@@ -1,0 +1,65 @@
+.about {
+    background-image: url('/img/about.jpg');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+
+    @include tablet {
+        background: var(--color-accent-peach);
+    }
+    
+    &--social {
+        background-image: url('/img/social.jpg');
+        background-size: 50% 100%;
+
+        @include tablet {
+            background: var(--color-accent-violet);
+        }
+    }
+
+    h2 {
+        width: 50%;
+        padding-right: 40px;
+        color: var(--color-dark);
+        margin-bottom: 24px;
+
+        @include tablet {
+            width: 100%;
+        }
+    }
+
+    p {
+        color: var(--color-gray);
+        margin-bottom: 134px;
+        padding-right: 70px;
+        width: 50%;
+
+        @include tablet-s {
+            padding-right: 40px;
+            margin-bottom: 67px;
+        }
+
+        @include tablet {
+            width: 100%;
+            padding-right: 0;
+        }
+    }
+
+    a {
+        color: var(--color-dark);
+        padding-bottom: 8px;
+        border-bottom: 1px solid var(--color-gray);
+
+        @include hover {
+            border-bottom: 1px solid var(--color-dark);
+        }
+    }
+
+    &__image {
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+    }
+}

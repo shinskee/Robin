@@ -1,0 +1,55 @@
+.reviews {
+    display: flex;
+    column-gap: 72px;
+
+    @include tablet-s {
+        column-gap: 23px;
+    }
+
+    @include tablet {
+        flex-direction: column;
+    }
+
+    &__card {
+        &-image {
+            width: 100%;
+        }
+
+        &-footer {
+            padding: 64px;
+            border: 1px solid var(--color-gray-dark);
+        }
+       
+        &-review {
+            p {
+                color: var(--color-light);
+                margin-bottom: 64px;
+            }
+        }
+
+        &-name,
+        &-position {
+            color: var(--color-gray-dark);
+        }
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        row-gap: 120px;
+
+        @include tablet {
+            width: 100%;
+            row-gap: 48px;
+        }
+    }
+
+    .section__header--light {
+        width: 50%;
+
+        @include tablet {
+            width: 100%;
+        }
+    }
+}

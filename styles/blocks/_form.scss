@@ -1,0 +1,77 @@
+.form {
+    max-width: 1076px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    column-gap: 24px;
+    row-gap: 24px;
+
+    @include tablet {
+        flex-direction: column;
+    }
+
+    .section__header {
+        width: 50%;
+
+        @include tablet {
+            width: 100%;
+        }
+    }
+
+    &__inner {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+
+        @include tablet {
+            width: 100%;
+        }
+    }
+
+    &-item {
+        display: flex;
+        flex-direction: column;        
+
+        &__input {
+            color: var(--color-light);
+            margin-top: 8px;
+            height: 50px;
+            background-color: var(--color-level-1);
+            box-shadow: none;
+            border: none;
+
+            &--message {
+                height: 100px;
+            }
+        }
+    }
+
+    form {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+
+        @include tablet {
+            width: 100%;
+        }
+
+        input {
+            width: 100%;
+        }
+
+        label {
+            color: var(--color-light);
+        }
+    }
+
+    &__button {
+        background-color: var(--color-primary);
+
+        @include hover {
+            filter: brightness(1.2);
+        }
+    }
+}

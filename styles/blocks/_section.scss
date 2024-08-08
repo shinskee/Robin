@@ -1,0 +1,48 @@
+.section {
+    padding-top: var(--section-padding-y);
+    padding-bottom: var(--section-padding-y);
+
+    &__header {
+        line-height: 1.2;
+
+        &-subtitle {
+            color: var(--color-gray);
+        }
+    }
+
+    p {
+        margin-top: 24px;
+        color: var(--color-gray);
+    }
+}
+
+.section__header--light {
+    margin-bottom: 120px;
+    height: 100%;
+
+    @include tablet-s {
+        margin-bottom: 64px;
+    }
+
+    .section__header {
+        margin-bottom: 120px;
+
+        @include tablet {
+            margin-bottom: 64px;
+        }
+
+        &-description {
+            margin-bottom: 40px;
+        }
+
+        &-link {
+            color: var(--color-light);
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--color-gray);
+
+            @include hover {
+                border-bottom: 1px solid var(--color-light);
+            }
+        }
+    }
+}

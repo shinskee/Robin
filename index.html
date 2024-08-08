@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="/libs/carousel/carousel.css">
+    <link rel="stylesheet" href="/libs/fancybox/fancybox.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Name</title>
+    
+    <script src="/libs/carousel/carousel.umd.js" defer></script>
+    <script src="/libs/fancybox/fancybox.umd.js" defer></script>
+    <script src="/libs/gsap/gsap.min.js" defer></script>
+    <script src="/libs/gsap/ScrollSmoother.min.js" defer></script>
+    <script src="/libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="/main.js" defer></script>
+</head>
+<body> 
+    <div class="wrapper">
+        <div class="content">
+            <header data-speed="1" class="hero">
+                <div data-speed="1" class="header container">
+                    <a href="#" class="logo">
+                        <img src="/img/logo.svg" alt="logo" width="79">
+                    </a>
+                    <!-- Бургер меню -->                   
+                        <button class="burger visible-tablet"><span></span></button>
+                    <!-- Нав меню -->
+                        <nav class="nav">
+                                <ul class="nav__list">
+                                    <li class="nav__item">
+                                        <a href="#experience" class="nav__link">Experience</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#work" class="nav__link">Work</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#photography" class="nav__link">Photography</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#contact" class="nav__link">Contact</a>
+                                    </li>
+                                </ul>
+                        </nav>
+                </div>   
+                <div class="hero__content">
+                    <div data-speed=".9" class="hero__image">
+                        <img src="/img/hero.jpg" alt="">
+                    </div>
+                    <div data-speed="1.1" class="hero__text">
+                        <h1 class="hero__text-title">I’m Robin Williams. A Product Designer <span>based in Italy.</span></h1>
+                        <div class="hero__text-description"><p>I’m probably the most passionate designer you will ever get to work with. If you have a great project that needs some amazing skills, I’m your guy.</p></div>
+                    </div>
+                </div>           
+            </header>
+
+            <section data-speed="1" id="experience" class="section work container">
+                <div data-speed="1.1" class="section__header">
+                    <div class="section__header-subtitle"><p>work experience</p></div>
+                    <h2 class="section__header-title">Companies I have worked for in the past</h2>
+                </div>
+                <div class="work__content">
+                    <ol class="work__list">
+                        <li class="work__list-item">
+                            <h3 class="work__list-title"><span>Google</span>, Interaction Designer</h3>
+                            <div class="work__list-description"><p>I currently am the lead designer on the interaction design team for Google Play.</p></div>
+                        </li>
+                        <li class="work__list-item">
+                            <h3 class="work__list-title"><span>Facebook</span>, Product Designer</h3>
+                            <div class="work__list-description"><p>I’ve worked on a wide variety of internal tools for facebook over the past 6 years.</p></div>
+                        </li>
+                        <li class="work__list-item">
+                            <h3 class="work__list-title"><span>Dribbble</span>, Graphic Designer</h3>
+                            <div class="work__list-description"><p>I started my design career with Dribbble. I was incharge of creating illustrations for the platform.</p></div>
+                        </li>
+                    </ol>
+                </div>
+            </section>
+
+            <section data-speed="1" class="section about bg--peach">
+                <div class="about__inner container">
+                    <div class="section__header">
+                        <h2 class="section__header-title">Philosophy & values</h2>
+                        <div class="section__header-description"><p>I think everyone wants the same thing - relationship with humanity, peace with the metaphysical, and experience with the universe. I try to grasp these things with my values: authenticity, creativity, & hospitality.</p></div>
+                        <a class="section__header-link" href="">More about me</a>
+                    </div>
+                </div>
+            </section>
+            <div data-speed="1" class="about__image visible-tablet">
+                <img src="/img/about.jpg" alt="">
+            </div>
+
+            <section data-speed="1" class="section skill container">
+                <div class="section__header">
+                    <h2 class="section__header-title">Skillset</h2>
+                    <div class="section__header-description"><p>With skills in over 4 different fields of design, I am the perfect person to hire when it comes to a full fledged project. Whatever your needs are, I can pretty much take on any challenge.</p></div>
+                </div>
+                <div class="skill__inner">
+                    <div class="skill__list">
+                        <li class="skill__item">
+                            <img src="/img/skill-1.svg" alt="">
+                            <h3 class="skill__item-title">Product Design</h3>
+                            <div class="skill__item-description"><p>Working at Facebook has taught me a lot about how to understand users, solve problems and build great products.</p></div>
+                        </li>
+                        <li class="skill__item">
+                            <span>
+                                <img src="/img/skill-2.svg" alt="">
+                            </span>
+                            <h3 class="skill__item-title">Visual Design</h3>
+                            <div class="skill__item-description"><p>My experience at dribbble has helped me learn to develop the eye for design. Colors, typography, layout and the whole package.</p></div>
+                        </li>
+                        <li class="skill__item">
+                            <span>
+                                <img src="/img/skill-3.svg" alt="">
+                            </span>
+                            <h3 class="skill__item-title">Motion Design</h3>
+                            <div class="skill__item-description"><p>I started my design journey with motion design in my college days. Motion is something that really fascinates me because of the flexibility of story telling. </p></div>
+                        </li>
+                        <li class="skill__item">
+                            <span>
+                                <img src="/img/skill-4.svg" alt="">
+                            </span>
+                            <h3 class="skill__item-title">Photography</h3>
+                            <div class="skill__item-description"><p>Clicking pictures really brings out the creative in me. Phtography really makes you look and percieve things in a different way.</p></div>
+                        </li>
+                    </div>
+                </div>
+            </section>
+
+            <section data-speed="1" class="brand container">
+                <ul class="brand__list">
+                    <li class="brand__list-item">
+                        <img src="/img/brand-1.svg" alt="">
+                    </li>
+                    <li class="brand__list-item">
+                        <img src="/img/brand-2.svg" alt="">
+                    </li>
+                    <li class="brand__list-item">
+                        <img src="/img/brand-3.svg" alt="">
+                    </li>
+                    <li class="brand__list-item">
+                        <img src="/img/brand-4.svg" alt="">
+                    </li>
+                    <li class="brand__list-item">
+                        <img src="/img/brand-5.svg" alt="">
+                    </li>
+                    <li class="brand__list-item">
+                        <img src="/img/brand-6.svg" alt="">
+                    </li>
+                </ul>
+            </section>
+
+            <section data-speed="1" id="work" class="section project container">
+                <div data-speed="1.3" class="project__left">
+                    <div class="section__header project__header">
+                        <div class="section__header-subtitle"><p>MY PROJECTS</p></div>
+                        <h2 class="section__header-title">Work that I’ve done for the past 8 years</h2>
+                    </div>
+                    <div class="project__card">
+                        <div class="project__card-image"><img src="/img/project-1.jpg" alt=""></div>
+                        <div class="project__card-footer">
+                            <h3 class="project__card-title">Restaurant Website Design</h3>
+                            <div class="project__card-description"><p>I worked with the guys at CBRE to redesign their entire website and mobile app fro both Android and iOS. This project lasted for 4 months and was a very challenging one.</p></div>
+                        </div>
+                    </div>
+                    <div class="project__card">
+                        <div class="project__card-image"><img src="/img/project-2.jpg" alt=""></div>
+                        <div class="project__card-footer">
+                            <h3 class="project__card-title">Restaurant Website Design</h3>
+                            <div class="project__card-description"><p>I worked with the guys at CBRE to redesign their entire website and mobile app fro both Android and iOS. This project lasted for 4 months and was a very challenging one.</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div data-speed="1" class="project__right">
+                    <div class="project__card">
+                        <div class="project__card-image"><img src="/img/project-3.jpg" alt=""></div>
+                        <div class="project__card-footer">
+                            <h3 class="project__card-title">Restaurant Website Design</h3>
+                            <div class="project__card-description"><p>I worked with the guys at CBRE to redesign their entire website and mobile app fro both Android and iOS. This project lasted for 4 months and was a very challenging one.</p></div>
+                        </div>
+                    </div>
+                    <div class="project__card">
+                        <div class="project__card-image"><img src="/img/project-4.jpg" alt=""></div>
+                        <div class="project__card-footer">
+                            <h3 class="project__card-title">Restaurant Website Design</h3>
+                            <div class="project__card-description"><p>I worked with the guys at CBRE to redesign their entire website and mobile app fro both Android and iOS. This project lasted for 4 months and was a very challenging one.</p></div>
+                        </div>
+                    </div>
+                    <button class="button project__button">VIeW ALL PROJECTS</button>
+                </div>
+
+            </section>
+
+            <section data-speed="1" class="section about bg--violet about--social">
+                <div class="about__inner container">
+                    <div class="section__header">
+                        <h2 class="section__header-title">Instagram</h2>
+                        <div class="section__header-description"><p>If you area a person who enjoys photography, then I highly recommend that you check out my Instagram. I’m an avid traveller and I capture the best moments that I would love to cherish with the world</p></div>
+                        <a class="section__header-link" href="">Follow me on IG</a>
+                    </div>
+                </div>
+            </section>
+            <div data-speed="1" class="about__image visible-tablet">
+                <img src="/img/social.jpg" alt="">
+            </div>
+
+            <section data-speed="1" class="section drible">
+                <div class="section__header">
+                    <h2 class="section__header-title">Dribbble</h2>
+                    <div class="section__header-description"><p>Each dribbble shot is made with love and care. Do check out my work on Dribbble. Likes and comments are appreciated.</p></div>
+                    <a class="section__header-link" href="">Follow me on Dribbble</a>
+                </div>
+                <div class="drible__image">
+                    <img src="/img/drible.jpg" alt="">
+                </div>
+            </section>
+
+            <section class="section reviews container">
+                <div class="section__header--light">
+                    <h2 class="section__header-title">This is what people say about me</h2>
+                    <div class="section__header-description"><p>Here are a few lines from people who I have worked with over the past 8+ years in my design career.</p></div>
+                    <a class="section__header-link" href="">See all testimonials</a>
+                </div>
+                <div class="reviews__right">
+                    <div class="reviews__card">
+                        <img class="reviews__card-image" src="/img/reviews-1.jpg" alt="">
+                        <div class="reviews__card-footer">
+                            <div class="reviews__card-review"><p>"Robin is one of the best designers I have worked with in my entire life. He is a designer who is very capable of taking up complex projects and delivers impeccable design."</p></div>
+                            <div class="reviews__card-name">Richard Owens</div>
+                            <div class="reviews__card-position">CEO, Company 1</div>
+                        </div>
+                    </div>
+                    <div class="reviews__card">
+                        <img class="reviews__card-image" src="/img/reviews-1.jpg" alt="">
+                        <div class="reviews__card-footer">
+                            <div class="reviews__card-review"><p>"Robin is one of the best designers I have worked with in my entire life. He is a designer who is very capable of taking up complex projects and delivers impeccable design."</p></div>
+                            <div class="reviews__card-name">Richard Owens</div>
+                            <div class="reviews__card-position">CEO, Company 1</div>
+                        </div>
+                    </div>
+                    <div class="reviews__card">
+                        <img class="reviews__card-image" src="/img/reviews-1.jpg" alt="">
+                        <div class="reviews__card-footer">
+                            <div class="reviews__card-review"><p>"Robin is one of the best designers I have worked with in my entire life. He is a designer who is very capable of taking up complex projects and delivers impeccable design."</p></div>
+                            <div class="reviews__card-name">Richard Owens</div>
+                            <div class="reviews__card-position">CEO, Company 1</div>
+                        </div>
+                    </div>
+                    <div class="reviews__card">
+                        <img class="reviews__card-image" src="/img/reviews-1.jpg" alt="">
+                        <div class="reviews__card-footer">
+                            <div class="reviews__card-review"><p>"Robin is one of the best designers I have worked with in my entire life. He is a designer who is very capable of taking up complex projects and delivers impeccable design."</p></div>
+                            <div class="reviews__card-name">Richard Owens</div>
+                            <div class="reviews__card-position">CEO, Company 1</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="photography" class="section photography container">
+                <div class="section__header">
+                    <h2 class="section__header-title">Photography</h2>
+                    <div class="section__header-description"><p>Here is a collection of my best travel pictures that I took while travelling places all around the world. </p></div>
+                </div>
+                <div class="photography__inner">
+                    <div class="photography__tabs">
+                        <button data-div="italy" class="button photography__tabs-item">ITALY</button>
+                        <button data-div="australia" class="button photography__tabs-item">AUSTRALIA</button>
+                        <button data-div="india" class="button photography__tabs-item">INDIA</button>
+                        <button data-div="brazil" class="button photography__tabs-item">BRAZIL</button>
+                    </div>
+                    <div class="photography__album">
+                        <div data-div="italy" class="photography__album-city --italy f-carousel" id="myCarousel">
+                            <div href="/img/photography-1-1.jpg" class="photography__album-item f-carousel__slide" data-fancybox="gallery">
+                                <img src="/img/photography-1-1.jpg" alt="">
+                            </div>
+                            <div href="/img/photography-1-2.jpg" class="photography__album-item f-carousel__slide" data-fancybox="gallery">
+                                <img src="/img/photography-1-2.jpg" alt="">
+                            </div>
+                            <div href="/img/photography-1-3.jpg" class="photography__album-item f-carousel__slide" data-fancybox="gallery">
+                                <img src="/img/photography-1-3.jpg" alt="">
+                            </div>
+                            <div href="/img/photography-1-4.jpg" class="photography__album-item f-carousel__slide" data-fancybox="gallery">
+                                <img src="/img/photography-1-4.jpg" alt="">
+                            </div>
+                        </div>
+                        <div data-div="australia" class="photography__album-city --australia visually-hidden f-carousel" id="myCarousel2">
+                            <div href="/img/photography-2-1.jpg" class="photography__album-item f-carousel__slide" data-fancybox="gallery">
+                                <img src="/img/photography-2-1.jpg" alt="">
+                            </div>
+                            <div href="/img/photography-2-2.jpg" class="photography__album-item f-carousel__slide" data-fancybox="gallery">
+                                <img src="/img/photography-2-2.jpg" alt="">
+                            </div>
+                            <div href="/img/photography-2-3.jpg" class="photography__album-item f-carousel__slide" data-fancybox="gallery">
+                                <img src="/img/photography-2-3.jpg" alt="">
+                            </div>
+                            <div href="/img/photography-2-4.jpg" class="photography__album-item f-carousel__slide" data-fancybox="gallery">
+                                <img src="/img/photography-2-4.jpg" alt="">
+                            </div>
+                        </div>
+                        <div data-div="india" class="photography__album-city --india visually-hidden f-carousel" id="myCarousel3">
+                            <div href="/img/photography-4-1.jpg" class="photography__album-item f-carousel__slide" data-fancybox="gallery">
+                                <img src="/img/photography-4-1.jpg" alt="">
+                            </div>
+                            <div href="/img/photography-4-2.jpg" class="photography__album-item f-carousel__slide" data-fancybox="gallery">
+                                <img src="/img/photography-4-2.jpg" alt="">
+                            </div>
+                            <div href="/img/photography-4-3.jpg" class="photography__album-item f-carousel__slide" data-fancybox="gallery">
+                                <img src="/img/photography-4-3.jpg" alt="">
+                            </div>
+                            <div href="/img/photography-4-4.jpg" class="photography__album-item f-carousel__slide" data-fancybox="gallery">
+                                <img src="/img/photography-4-4.jpg" alt="">
+                            </div>
+                        </div>
+                        <div data-div="brazil" class="photography__album-city --brazil visually-hidden f-carousel" id="myCarousel4">
+                            <div href="/img/photography-3-1.jpg" class="photography__album-item f-carousel__slide" data-fancybox="gallery">
+                                <img src="/img/photography-3-1.jpg" alt="">
+                            </div>
+                            <div href="/img/photography-3-2.jpg" class="photography__album-item f-carousel__slide" data-fancybox="gallery">
+                                <img src="/img/photography-3-2.jpg" alt="">
+                            </div>
+                            <div href="/img/photography-3-3.jpg" class="photography__album-item f-carousel__slide" data-fancybox="gallery">
+                                <img src="/img/photography-3-3.jpg" alt="">
+                            </div>
+                            <div href="/img/photography-3-4.jpg" class="photography__album-item f-carousel__slide" data-fancybox="gallery">
+                                <img src="/img/photography-3-4.jpg" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section form">
+                <div class="section__header">
+                    <h2 class="section__header-title">Let’s get started</h2>
+                    <div class="section__header-description"><p>Now that you know a lot about me, let me know if you are interested to work with me.</p></div>
+                </div>
+                <form class="from__inner">
+                    <div class="form-item">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" class="form-item__input">
+                    </div>
+                    <div class="form-item">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" class="form-item__input">
+                    </div>
+                    <div class="form-item">
+                        <label for="message">Message</label>
+                        <input type="text" name="message" class="form-item__input form-item__input--message">
+                    </div>
+                    <button class="button form__button" type="submit">Let’s get started</button>
+                </form>
+            </section>
+
+            <footer class="footer container">
+                <div class="footer__left">
+                    <a href="" class="logo"><img src="/img/logo.svg" alt=""></a>
+                    <div class="footer__socials">
+                        <a href="" class=""><img src="/img/Twitter Logo 1.svg" alt=""></a>
+                        <a href="" class=""><img src="/img/LinkedIn 1.svg" alt=""></a>
+                        <a href="" class=""><img src="/img/Dribbble Logo 1.svg" alt=""></a>
+                    </div>
+                    <div class="footer__copyright hidden-tablet"><p>Not Copyright 2020 • Robin Williams. Webflow cloneable</p></div>
+                </div>
+                <div class="footer__right">
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <a href="#main" class="footer__menu-link">Home</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#about" class="footer__menu-link">About</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#work" class="footer__menu-link">Work</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#procces" class="footer__menu-link">Procces</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <a href="#main" class="footer__menu-link">Store</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#about" class="footer__menu-link">Blog</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#work" class="footer__menu-link">Reading List</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__copyright visible-tablet"><p>Not Copyright 2020 • Robin Williams. Webflow cloneable</p></div>
+            </footer>
+        </div>
+    </div>
+                
+<!-- Кнопка скролла вверх -->
+    <a href="#main" class="scroll-top">
+        <img src="/image/scroll-top.svg" alt="" width="50" height="50">
+    </a>
+
+</body>
+</html>

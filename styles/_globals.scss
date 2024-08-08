@@ -1,0 +1,53 @@
+h1, h2, h3, h4, h5 {
+    font-family: 'Sen';
+    font-weight: bold;
+    color: var(--color-light);
+}
+
+a,
+button,
+li {
+    transition: all .3s;
+}
+
+h1 {
+    @include fluid-text(78, 32);
+}
+
+h2 {
+    @include fluid-text(55, 32);
+}
+
+h4 {
+    @include fluid-text(24, 18);
+}
+
+h5 {
+    @include fluid-text(18, 16);
+}
+
+body {
+    @include fluid-text(18, 16);
+    background-color: var(--color-dark);
+    font-family: 'Sen', serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    @include fluid-text(18, 16);
+    text-decoration: none;
+}
+
+.lock {
+    overflow: hidden;
+}
+
+button {
+    @include fluid-text(18, 16);
+}
+
+
+
