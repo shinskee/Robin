@@ -652,7 +652,7 @@ button {
 }
 
 .about {
-  background-image: url("/img/about.jpg");
+  background-image: url("./img/about.jpg");
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: right;
@@ -663,7 +663,7 @@ button {
   }
 }
 .about--social {
-  background-image: url("/img/social.jpg");
+  background-image: url("./img/social.jpg");
   background-size: 50% 100%;
 }
 @media (max-width: 768px) {
